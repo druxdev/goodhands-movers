@@ -1,0 +1,63 @@
+body {
+    font-family: "Open Sans", sans-serif; }
+  
+h1, h2, h3, h4 {
+    font-family: "Lobster", cursive; }
+  
+/* h2 {
+color: #3046C5; } */
+
+header h2 {
+    color: #CEC8FF; }
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    /*background-color: #3046C5; }*/
+    /*background-image: #3046C5; */
+}
+
+/*.navbar {
+    background-color: #901CAD; }*/
+
+.site-footer {
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    /* height: 60px; Set the fixed height of the footer here */
+    /* line-height: 60px; Vertically center the text there */
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+
+.home-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 60px; Set the fixed height of the footer here */
+    /* line-height: 60px; Vertically center the text there */
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+    
+.footer-contact {
+    text-align: right;
+}
+
+.footer-bottom {
+    color: white;
+    text-align: center;
+}
+
+.rowhead {
+    height: 50%;
+    width: auto;
+}
+
+.row-content {
+    padding: 50px 0;
+    /* border-bottom: 1px ridge; */
+    min-height: 200px;
+}
