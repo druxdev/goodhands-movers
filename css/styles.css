@@ -10,15 +10,25 @@ color: #3046C5; } */
 header h2 {
     color: #CEC8FF; }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    /*background-color: #3046C5; }*/
-    /*background-image: #3046C5; */
+.navbar {
+    background-color: #901CAD; }
+
+.nav-item {
+    padding-left:20%;
 }
 
-/*.navbar {
-    background-color: #901CAD; }*/
+/* .navbar-nav {
+    padding;
+} */
+
+/* .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #3046C5; }
+    background-image: #3046C5; 
+} */
+
+
 
 .site-footer {
     /* position: absolute;
@@ -60,4 +70,12 @@ header h2 {
     padding: 50px 0;
     /* border-bottom: 1px ridge; */
     min-height: 200px;
+}
+
+input[type="radio"] {
+    display:inline-block;
+}
+
+label {
+    display:inline-block;
 }
