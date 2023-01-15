@@ -1,25 +1,41 @@
 body {
+    font-family: 'Metamorphous', cursive;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Fahkwang', sans-serif;
+    background-color: rgb(243, 243, 214);
+}
+
+h1 {
+    /*font-family: 'Black Ops One', cursive;*/
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Fahkwang', sans-serif;
+    margin-top: 100px;
+    
+}
+
+/* body {
     font-family: "Open Sans", sans-serif; }
   
 h1, h2, h3, h4 {
-    font-family: "Lobster", cursive; }
+    font-family: "Lobster", cursive; } */
   
 /* h2 {
 color: #3046C5; } */
 
 header h2 {
-    color: #CEC8FF; }
-
-.navbar {
-    background-color: #901CAD; }
-
-.nav-item {
-    padding-left:20%;
+    color: #CEC8FF; 
 }
 
-/* .navbar-nav {
-    padding;
-} */
+ .nav-item {
+    padding-left:20%;
+}  
+
+.nav-link:hover {
+    border-bottom: 1px solid rgb(255, 243, 69);
+    transition: border-bottom 0.3s;
+	padding: 8px 0;
+}
+
 
 /* .jumbotron {
     margin: 0;
@@ -78,4 +94,10 @@ input[type="radio"] {
 
 label {
     display:inline-block;
+}
+
+.contact {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
 }
