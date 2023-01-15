@@ -1,16 +1,11 @@
 body {
-    font-family: 'Metamorphous', cursive;
-    font-family: 'IM Fell DW Pica SC', serif;
     font-family: 'Fahkwang', sans-serif;
-    background-color: rgb(243, 243, 214);
+    background-color: rgba(243, 243, 214, 0.389);
 }
 
 h1 {
-    /*font-family: 'Black Ops One', cursive;*/
-    font-family: 'Metamorphous', cursive;
     font-family: 'Fahkwang', sans-serif;
-    margin-top: 100px;
-    
+    margin-top: 100px;   
 }
 
 /* body {
@@ -26,9 +21,20 @@ header h2 {
     color: #CEC8FF; 
 }
 
- .nav-item {
+.navbar-nav{
+    margin: auto;
+    font-size: large;
+}
+
+.nav-item {
+    color: white;
+    margin: 0 20px 0 20px;
+}
+
+
+ /* .nav-item {
     padding-left:20%;
-}  
+}   */
 
 .nav-link:hover {
     border-bottom: 1px solid rgb(255, 243, 69);
@@ -52,7 +58,7 @@ header h2 {
     width: 100%; */
     /* height: 60px; Set the fixed height of the footer here */
     /* line-height: 60px; Vertically center the text there */
-    padding: 20px 0;
+    padding: 40px 0;
     background-color: black;
     color: white;
 }
